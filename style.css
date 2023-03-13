@@ -1,0 +1,195 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.form{
+    width: 640px;
+    height: 264px;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.title{
+    width: 256px;
+    height: 24px;
+    padding: 20px 192px 0px 192px;
+}
+
+p{
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.subtitle{
+    padding: 0px 426px 0px 16px;
+}
+
+.tel{
+    width: 600px;
+    height: 43px;
+    margin: 0px 16px 0 16px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.25);
+    border: 0.5px solid #DADADA;
+    border-radius: 4px;
+}
+
+button{
+    width: 384px;
+    height: 48px;
+    margin: 16px 128px 48px 128px;
+    background-color: black;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/**********************************/
+
+.form-2{
+    width: 640px;
+    height: 328px;
+    background-color: white;
+}
+
+.code input{
+    width: 44px;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: space-around;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #141414;
+}
+
+.code{
+    width: 220px;
+    height: 48px;
+    margin: 40px 150px 40px 220px;
+    
+}
+
+.title-2{
+    width: 248px;
+    height: 24px;
+    padding: 20px 196px 0px 196px;
+}
+
+.subtitle-2{
+    width: 256px;
+    height: 32px;
+    padding: 0px 192px 0px 192px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+
+/********************************************/
+
+.form-3{
+    width: 664px;
+    height: 576px;
+    background-color: white;
+}
+
+.title-3{
+    width: 332px;
+    height: 16px;
+    padding: 40px 166px 0px 0px;
+}
+
+.subtitle-3{
+    width: 256px;
+    height: 32px;
+    padding: 0px 308px 0px 24px;
+    color: #000000;
+}
+
+.subtitle-3-2{
+    width: 256px;
+    height: 16px;
+    padding: 0px 384px 0px 24px;
+    color: #000000;
+}
+
+.list{
+    width: 650px;
+    height: 48px;
+    margin: 0px 24px 0px 24px;
+}
+
+.list input{
+    width: 200px;
+    height: 48px;
+    display: inline-flex;
+    flex-direction: space-around;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+}
+
+.list-2{
+    width: 650px;
+    height: 264px;
+    margin: 0px 24px 0px 24px;
+}
+
+.list-2 input{
+    width: 200px;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: space-around;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin: 0 5px 5px 0;
+}
+
+.list-2 .place{
+    width: 408px;
+}
+
