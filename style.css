@@ -11,25 +11,12 @@ section{
     align-items:center;
 }
 
-.form{
-    width: 640px;
-    height: 264px;
-    background-color: white;
-}
-
 h1{
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
-}
-
-.title{
-    width: 256px;
-    height: 24px;
-    padding: 20px 192px 0px 192px;
 }
 
 p{
@@ -38,6 +25,43 @@ p{
     font-size: 14px;
     line-height: 18px;
     color: #000000;
+}
+
+input, select {
+    opacity: 0.5;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+button{
+    width: 384px;
+    height: 48px;
+    margin: 16px 128px 48px 128px;
+    background-color: black;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/************  Page - 1    ************/
+
+.form{
+    width: 640px;
+    height: 264px;
+    background-color: white;
+}
+
+.title{
+    width: 256px;
+    height: 24px;
+    padding: 20px 192px 0px 192px;
 }
 
 .subtitle{
@@ -57,21 +81,7 @@ p{
     border-radius: 4px;
 }
 
-button{
-    width: 384px;
-    height: 48px;
-    margin: 16px 128px 48px 128px;
-    background-color: black;
-    border-radius: 4px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-/**********************************/
+/***********  Page - 2   *************/
 
 .form-2{
     width: 640px;
@@ -117,7 +127,7 @@ button{
 }
 
 
-/********************************************/
+/**************  Page - 4  **************/
 
 .form-3{
     width: 664px;
@@ -128,7 +138,7 @@ button{
 .title-3{
     width: 332px;
     height: 16px;
-    padding: 40px 166px 0px 0px;
+    padding: 40px 166px 0px 20px;
 }
 
 .subtitle-3{
@@ -145,13 +155,13 @@ button{
     color: #000000;
 }
 
-.list{
+.list3{
     width: 650px;
     height: 48px;
     margin: 0px 24px 0px 24px;
 }
 
-.list input{
+.list3 input{
     width: 200px;
     height: 48px;
     display: inline-flex;
@@ -166,13 +176,13 @@ button{
     color: #141414;
 }
 
-.list-2{
+.list3-2{
     width: 650px;
     height: 264px;
     margin: 0px 24px 0px 24px;
 }
 
-.list-2 input{
+.list3-2 input, select{
     width: 200px;
     height: 45px;
     display: inline-flex;
@@ -189,7 +199,109 @@ button{
     margin: 0 5px 5px 0;
 }
 
-.list-2 .place{
+.list3-2 .place{
     width: 408px;
 }
 
+/*********    Page - 5    ************/
+
+.form-5{
+    width: 664px;
+    height: 608px;
+    background-color: white;
+}
+
+.title-5{
+    width: 478px;
+    height: 24px;
+    padding: 40px 166px 0px 20px;
+}
+
+.subtitle-5-2{
+    width: 332px;
+    height: 16px;
+    padding: 5px 308px 0px 24px;
+    color: #000000;
+}
+
+.list5{
+    width: 650px;
+    height: 110px;
+    margin: 0px 24px 0px 24px;
+}
+
+.list5 input{
+    width: 200px;
+    height: 48px;
+    display: inline-flex;
+    flex-direction: space-around;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin: 0 5px 5px 0;
+}
+
+.list5 input:first-child{
+    width: 408px;
+}
+
+.list5 input:nth-child(3){
+    width: 304px;
+}
+
+.list5 input:nth-child(4){
+    width: 304px;
+}
+
+
+.list5-2{
+    width: 650px;
+    height: 264px;
+    margin: 0px 24px 0px 24px;
+}
+
+.list5-2 input{
+    width: 200px;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: space-around;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin: 0 5px 5px 0;
+}
+
+.list5-2 input:first-child{
+    width: 625px;
+}
+
+.list5-2 select:last-child{
+    width: 625px;
+}
+
+.list5-2 select{
+    width: 200px;
+    height: 48px;
+    display: inline-flex;
+    flex-direction: space-around;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sofia Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin: 0px 5px 5px 0;
+}
