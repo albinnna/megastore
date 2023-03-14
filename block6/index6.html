@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,126 +8,151 @@
     <title>6-MegaStore</title>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style6.css">
 </head>
+
 <body>
-    <section >
+    <section class="form-6">
+        <h1 class="title-6">Анкета для корпоративных клиентов</h1>
         <form>
-            <div class="form-6">
-                <h1 class="title-6">Анкета  для корпоративных клиентов</h1>
-                <p class="subtitle-6">Личные данные</p>
-                <div class="list6">
-                    <div>
-                        <label>Фамилия</label><br>
-                        <input type="text" placeholder="Иванов">
-                    </div>
-                    <div>
-                        <label>Имя</label><br>
-                        <input type="text" placeholder="Иван">
-                    </div>
-                    <div>
-                        <label>Отчество</label><br>
-                        <input type="text" placeholder="Иванович">
-                    </div>
-                    <div>
-                        <label>Дата рождения</label><br>
-                        <input type="date" placeholder="12.12.2021">
-                    </div>
-                    <div>
-                        <label>Фактическое место проживания</label><br>
-                        <input class="w-408" type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
-                    </div>
-                    <div>
-                        <label>Контактный номер</label><br>
-                        <input type="number" placeholder="+996 555 000 000">
-                    </div>
-                    <div>
-                        <label>Электронный адрес</label><br>
-                        <input type="email" placeholder="ivanov@mail.ru">
-                    </div>
+            <p class="subtitle-6">Личные данные</p>
+            <div class="list6">
+                <div>
+                    <label for="userName">Фамилия</label><br>
+                    <input id="userName" type="text" placeholder="Иванов">
                 </div>
-
-                <p class="subtitle-6-2">Паспортные данные</p>
-                <div class="list6-2">
-                    <div>
-                        <label>Серийный номер AN/ID</label><br>
-                        <input type="number" placeholder="AN1234567">
-                    </div>
-                    <div>
-                        <label>ИНН</label><br>
-                        <input type="text" placeholder="12345678987654">
-                    </div>
-                    <div>
-                        <label>Дата получения</label><br>
-                        <input type="date" placeholder="12.12.2021">
-                    </div>
-                    <div>
-                        <label>Наименование банка</label><br>
-                        <select><option>Выберите банка</option></select>
-                    </div>
-                    <div>
-                        <label>Место проживания по прописке</label><br>
-                        <input class="w-408" type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
-                    </div>
+                <div>
+                    <label for="userLastName">Имя</label><br>
+                    <input id="userLastName" type="text" placeholder="Иван">
                 </div>
-
-
-                <p class="subtitle-6-3">Данные о ваших доходах</p>
-                <div class="list6-3">
-                    <div>
-                        <label>Организация</label><br>
-                        <input type="text" placeholder="Megacom">
-                    </div>
-                    <div>
-                        <label>Должность</label><br>
-                        <input class="w-408" type="text" placeholder="Ведущий бухгалтер">
-                    </div>
-                    <div>
-                        <label>Заработная плата в  месяц</label><br>
-                        <input class="w-304" type="text">
-                    </div>
-                    <div>
-                        <label>Заработная Плата  за посл.  3 месяца</label><br>
-                        <input class="w-304" type="text">
-                    </div>
+                <div>
+                    <label for="userPatronymic">Отчество</label><br>
+                    <input id="userPatronymic" type="text" placeholder="Иванович">
                 </div>
-
-
-                <p class="subtitle-6-4">Сведения о кредите</p>
-                <div class="list6-4">
-                    <div>
-                        <label>Покупка телефона ( наименование товара)</label><br>
-                        <input class="w-625" type="text" placeholder="iPhone XS 256Gb">
-                    </div>
-                    <div>
-                        <label>Стоимость товара</label><br>
-                        <input type="text" placeholder="65 000 сом">
-                    </div>
-                    <div>
-                        <label>Количество товара</label><br>
-                        <input type="text" placeholder="1 шт">
-                    </div>
-                    <div>   
-                        <label>Итого сумма кредита</label><br>
-                        <input type="text" placeholder="65 000 сом">
-                    </div>
-                    <div>
-                        <label>Вид кредита</label><br>
-                        <select><option>кредит/ рассрочка</option></select>
-                    </div>
-                    <div>
-                        <label>Срок кредита ( мес)</label><br>
-                        <select><option >мин 3 месяца</option></select>
-                    </div>
-                    <div>
-                        <label>Точка получения товара</label><br>
-                        <select><option >Выберите адрес</option></select>
-                    </div>
+                <div>
+                    <label for="date">Дата рождения</label><br>
+                    <input id="date" type="date" placeholder="12.12.2021">
                 </div>
-                <button>Оформить заявку</button>
+                <div>
+                    <label for="address">Фактическое место проживания</label><br>
+                    <input class="w-408" id="address" type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
+                </div>
+                <div>
+                    <label for="tel">Контактный номер</label><br>
+                    <input id="tel" type="number" placeholder="+996 555 000 000">
+                </div>
+                <div>
+                    <label for="email">Электронный адрес</label><br>
+                    <input id="email" type="email" placeholder="ivanov@mail.ru">
+                </div>
             </div>
+
+            <p class="subtitle-6-2">Паспортные данные</p>
+            <div class="list6-2">
+                <div>
+                    <label for="serial number">Серийный номер AN/ID</label><br>
+                    <input id="serial number" type="text" placeholder="AN1234567">
+                </div>
+                <div>
+                    <label for="number">ИНН</label><br>
+                    <input id="number" type="text" placeholder="12345678987654">
+                </div>
+                <div>
+                    <label for="date">Дата получения</label><br>
+                    <input id="date" type="date" placeholder="12.12.2021">
+                </div>
+                <div>
+                    <label for="name">Наименование банка</label><br>
+                    <select id="name" name="list1">
+                        <option value="" hidden>Выберите банка</option>
+                        <option value="Бакай Банк">Бакай Банк</option>
+                        <option value="Дос Кредо Банк">Дос Кредо Банк</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="address">Место проживания по прописке</label><br>
+                    <input id="address" class="w-408" type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
+                </div>
+            </div>
+
+            <p class="subtitle-6-3">Данные о ваших доходах</p>
+            <div class="list6-3">
+                <div>
+                    <label for="name">Организация</label><br>
+                    <input for="name" type="text" placeholder="Megacom">
+                </div>
+                <div>
+                    <label for="job">Должность</label><br>
+                    <input id="job" class="w-408" type="text" placeholder="Ведущий бухгалтер">
+                </div>
+                <div>
+                    <label for="pay">Заработная плата в месяц</label><br>
+                    <input id="pay" class="w-304" type="text">
+                </div>
+                <div>
+                    <label for="pay">Заработная Плата за посл. 3 месяца</label><br>
+                    <input id="pay" class="w-304" type="text">
+                </div>
+            </div>
+
+            <p class="subtitle-6-4">Сведения о кредите</p>
+            <div class="list6-4">
+                <div>
+                    <label for="name">Покупка телефона ( наименование товара)</label><br>
+                    <input id="name" class="w-625" type="text" placeholder="iPhone XS 256Gb">
+                </div>
+                <div>
+                    <label for="price">Стоимость товара</label><br>
+                    <input id="price" type="text" placeholder="65 000 сом">
+                </div>
+                <div>
+                    <label for="quantity">Количество товара</label><br>
+                    <input id="quantity" type="text" placeholder="1 шт">
+                </div>
+                <div>
+                    <label for="quantity">Итого сумма кредита</label><br>
+                    <input id="quantity" type="text" placeholder="65 000 сом">
+                </div>
+                <div>
+                    <label for="name">Вид кредита</label><br>
+                    <select id="name">
+                        <option value="" hidden>кредит/ рассрочка</option>
+                        <option value="Рассрочка">Рассрочка</option>
+                        <option value="Кредит">Кредит</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="text">Срок кредита ( мес)</label><br>
+                    <select id="text">
+                        <option value="" hidden>мин 3 месяца</option>
+                        <option>3 месяца</option>
+                        <option>6 месяца</option>
+                        <option>9 месяца</option>
+                        <option>12 месяца</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="address">Точка получения товара</label><br>
+                    <select id="address">
+                        <option value="" hidden>Выберите адрес</option>
+                        <option> <b>ТЦ "Азия Молл"</b>
+                            пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
+                        <option> <b>ТЦ ГУМ  "Чынар"</b>
+                            пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)</option>
+                        <option> <b>ТЦ «Beta Stores - 2»</b>
+                            ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»</option>
+                        <option> <b>ТЦ Vefa Center</b>
+                            ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20</option>
+                        <option> <b>ТЦ «Беш-Сары Сити»</b>           
+                            Бейшеналиева 42А, ТЦ «Беш-Сары Сити»</option>
+                        <option> <b>ТРЦ «Аламедин Гранд»</b>
+                            пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)</option>
+                    </select>
+                </div>
+            </div>
+            <button>Оформить заявку</button>
         </form>
     </section>
 </body>
