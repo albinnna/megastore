@@ -9,17 +9,6 @@ section{
     display: flex;
     justify-content: center;
     align-items:center;
-}
-
-h1{
-    font-family: 'Sora', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-}
-
-p{
     font-family: 'Sora', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -27,14 +16,30 @@ p{
     color: #000000;
 }
 
+h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 input, select {
     opacity: 0.5;
+}
+
+input, select{
+    width: 200px;
+    height: 48px;
+    display: inline-flex;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    line-height: 24px;
+    color: #141414;
 }
 
 input:focus{
     outline: none;
 }
-
 
 button{
     width: 384px;
@@ -42,8 +47,6 @@ button{
     margin: 16px 128px 48px 128px;
     background-color: black;
     border-radius: 4px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -56,6 +59,10 @@ button{
     width: 640px;
     height: 264px;
     background-color: white;
+}
+
+.form h1{
+    text-align: center;
 }
 
 .title{
@@ -72,10 +79,6 @@ button{
     width: 600px;
     height: 43px;
     margin: 0px 16px 0 16px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
     color: rgba(0, 0, 0, 0.25);
     border: 0.5px solid #DADADA;
     border-radius: 4px;
@@ -92,17 +95,8 @@ button{
 .code input{
     width: 44px;
     height: 45px;
-    display: inline-flex;
-    flex-direction: space-around;
-    background: #FFFFFF;
-    border: 0.5px solid #DADADA;
-    border-radius: 12px;
     text-align: center;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
     font-size: 24px;
-    line-height: 24px;
-    color: #141414;
 }
 
 .code{
@@ -145,14 +139,12 @@ button{
     width: 256px;
     height: 32px;
     padding: 0px 308px 0px 24px;
-    color: #000000;
 }
 
 .subtitle-3-2{
     width: 256px;
     height: 16px;
     padding: 0px 384px 0px 24px;
-    color: #000000;
 }
 
 .list3{
@@ -161,20 +153,16 @@ button{
     margin: 0px 24px 0px 24px;
 }
 
-.list3 input{
+/* .list3 input{
     width: 200px;
     height: 48px;
     display: inline-flex;
-    flex-direction: space-around;
     background: #FFFFFF;
     border: 0.5px solid #DADADA;
     border-radius: 12px;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     color: #141414;
-}
+} */
 
 .list3-2{
     width: 650px;
@@ -183,19 +171,12 @@ button{
 }
 
 .list3-2 input, select{
-    width: 200px;
-    height: 45px;
-    display: inline-flex;
-    flex-direction: space-around;
     flex-wrap: wrap;
-    background: #FFFFFF;
+    /* background: #FFFFFF;
     border: 0.5px solid #DADADA;
     border-radius: 12px;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    color: #141414;
+    color: #141414; */
     margin: 0 5px 5px 0;
 }
 
@@ -221,7 +202,6 @@ button{
     width: 332px;
     height: 16px;
     padding: 5px 308px 0px 24px;
-    color: #000000;
 }
 
 .list5{
@@ -231,18 +211,6 @@ button{
 }
 
 .list5 input{
-    width: 200px;
-    height: 48px;
-    display: inline-flex;
-    flex-direction: space-around;
-    background: #FFFFFF;
-    border: 0.5px solid #DADADA;
-    border-radius: 12px;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #141414;
     margin: 0 5px 5px 0;
 }
 
@@ -266,19 +234,7 @@ button{
 }
 
 .list5-2 input{
-    width: 200px;
-    height: 45px;
-    display: inline-flex;
-    flex-direction: space-around;
     flex-wrap: wrap;
-    background: #FFFFFF;
-    border: 0.5px solid #DADADA;
-    border-radius: 12px;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #141414;
     margin: 0 5px 5px 0;
 }
 
@@ -291,17 +247,36 @@ button{
 }
 
 .list5-2 select{
-    width: 200px;
-    height: 48px;
-    display: inline-flex;
-    flex-direction: space-around;
-    background: #FFFFFF;
-    border: 0.5px solid #DADADA;
-    border-radius: 12px;
-    font-family: 'Sofia Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #141414;
     margin: 0px 5px 5px 0;
+}
+
+
+
+/********** Page 7 **********/
+
+.form-7{
+    width: 640px;
+    height: 328px;
+    background-color: white;
+}
+
+.form-7 img{
+    width: 80px;
+    height: 80px;
+    margin: 16px 280px 32px 280px;
+    
+}
+
+.title-7{
+    width: 248px;
+    height: 24px;
+    text-align: center;
+    margin: 40px 196px 0px 196px;
+}
+
+.subtitle-7{
+    width: 256px;
+    height: 32px;
+    margin: 8px 192px 0px 192px;
+    color: #A9A9A9;
 }

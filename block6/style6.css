@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+section{
+    width: 100%;
+	height: 100vh;
+    display: inline-flex;
+}
+
+h1,p,label{
+    font-family: 'Sora', sans-serif;
+    width: 168px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;   
+}
+
+h1{
+    font-size: 16px;
+}
+
+p{
+    font-weight: 600;
+}
+
+input, select {
+    opacity: 0.5;
+    width: 200px;
+    height: 48px;
+    display: inline-flex;
+    border: 0.5px solid #DADADA;
+    border-radius: 12px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141414;
+    margin: 0 5px 5px 0;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 384px;
+    height: 48px;
+    margin: 16px 128px 48px 128px;
+    background-color: black;
+    border-radius: 4px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form-6 .w-408{
+    width: 408px;
+}
+
+.list6-3 .w-304{
+    width: 304px;
+}
+
+.list6-4 .w-625{
+    width: 625px;
+}
+
+/**************  Page 6  **************/
+
+
+.form-6{
+    width: 785px;
+}
+
+.title-6{
+    width: 478px;
+    height: 24px;
+    margin: 44px 882px 0px 80px;
+}
+
+.subtitle-6{
+    width: 332px;
+    height: 16px;
+    padding: 0px 1028px 0px 80px;
+}
+
+.list6{
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list6 div{
+    margin: 0 8px 5px 0;
+}
+
+.subtitle-6-2{
+    width: 256px;
+    height: 16px;
+    padding: 0px 1104px 0px 80px;
+}
+
+.list6-2{
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-6-2{
+    width: 478px;
+    height: 24px;
+    padding: 40px 166px 0px 20px;
+}
+
+.subtitle-6-3{
+    width: 256px;
+    height: 16px;
+    padding: 5px 1104px 0px 80px;
+}
+
+.list6-3{
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list6-3 input{
+    margin: 0 5px 5px 0;
+}
+
+.subtitle-6-4{
+    width: 256px;
+    height: 16px;
+    padding: 5px 1104px 0px 80px;
+}
+
+.list6-4{
+    margin: 0px 0px 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
